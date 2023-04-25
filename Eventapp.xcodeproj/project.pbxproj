@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D875488529F7CD7F00B00EFF /* EventappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875488429F7CD7F00B00EFF /* EventappApp.swift */; };
+		D875488929F7CD8100B00EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D875488829F7CD8100B00EFF /* Assets.xcassets */; };
+		D875488C29F7CD8100B00EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D875488B29F7CD8100B00EFF /* Preview Assets.xcassets */; };
+		D875488E29F7CD8100B00EFF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875488D29F7CD8100B00EFF /* Persistence.swift */; };
+		D875489129F7CD8100B00EFF /* Eventapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D875488F29F7CD8100B00EFF /* Eventapp.xcdatamodeld */; };
+		D875489F29F7D9AE00B00EFF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875489E29F7D9AE00B00EFF /* HomeView.swift */; };
+		D87548A229F7DA0D00B00EFF /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548A129F7DA0D00B00EFF /* Consts.swift */; };
+		D87548A429F7DA1800B00EFF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548A329F7DA1800B00EFF /* Styles.swift */; };
+		D87548A629F7DA8E00B00EFF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548A529F7DA8E00B00EFF /* Config.swift */; };
+		D87548AE29F7DC1300B00EFF /* AirbnbCereal_W_Blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548A929F7DC1300B00EFF /* AirbnbCereal_W_Blk.otf */; };
+		D87548AF29F7DC1300B00EFF /* AirbnbCereal_W_Lt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548AA29F7DC1300B00EFF /* AirbnbCereal_W_Lt.otf */; };
+		D87548B029F7DC1300B00EFF /* AirbnbCereal_W_Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548AB29F7DC1300B00EFF /* AirbnbCereal_W_Md.otf */; };
+		D87548B129F7DC1300B00EFF /* AirbnbCereal_W_Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548AC29F7DC1300B00EFF /* AirbnbCereal_W_Bd.otf */; };
+		D87548B229F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548AD29F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf */; };
+		D87548B629F7E44D00B00EFF /* EventVItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B529F7E44D00B00EFF /* EventVItemView.swift */; };
+		D87548B829F7E4C500B00EFF /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B729F7E4C500B00EFF /* EventDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D875488129F7CD7F00B00EFF /* Eventapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D875488429F7CD7F00B00EFF /* EventappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventappApp.swift; sourceTree = "<group>"; };
+		D875488829F7CD8100B00EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D875488B29F7CD8100B00EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D875488D29F7CD8100B00EFF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D875489029F7CD8100B00EFF /* Eventapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eventapp.xcdatamodel; sourceTree = "<group>"; };
+		D875489E29F7D9AE00B00EFF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D87548A129F7DA0D00B00EFF /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		D87548A329F7DA1800B00EFF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		D87548A529F7DA8E00B00EFF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D87548A929F7DC1300B00EFF /* AirbnbCereal_W_Blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Blk.otf; sourceTree = "<group>"; };
+		D87548AA29F7DC1300B00EFF /* AirbnbCereal_W_Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Lt.otf; sourceTree = "<group>"; };
+		D87548AB29F7DC1300B00EFF /* AirbnbCereal_W_Md.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Md.otf; sourceTree = "<group>"; };
+		D87548AC29F7DC1300B00EFF /* AirbnbCereal_W_Bd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Bd.otf; sourceTree = "<group>"; };
+		D87548AD29F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Bk.otf; sourceTree = "<group>"; };
+		D87548B329F7DC4100B00EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D87548B529F7E44D00B00EFF /* EventVItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVItemView.swift; sourceTree = "<group>"; };
+		D87548B729F7E4C500B00EFF /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D875487E29F7CD7F00B00EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D875487829F7CD7F00B00EFF = {
+			isa = PBXGroup;
+			children = (
+				D875488329F7CD7F00B00EFF /* Eventapp */,
+				D875488229F7CD7F00B00EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D875488229F7CD7F00B00EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D875488129F7CD7F00B00EFF /* Eventapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D875488329F7CD7F00B00EFF /* Eventapp */ = {
+			isa = PBXGroup;
+			children = (
+				D87548B329F7DC4100B00EFF /* Info.plist */,
+				D87548A829F7DBBB00B00EFF /* fonts */,
+				D87548A029F7D9D000B00EFF /* Utils */,
+				D875489B29F7D5D900B00EFF /* ViewModels */,
+				D875489A29F7D5D000B00EFF /* Model */,
+				D875489929F7D5C900B00EFF /* View */,
+				D875489829F7D5A600B00EFF /* data */,
+				D875488429F7CD7F00B00EFF /* EventappApp.swift */,
+				D875488829F7CD8100B00EFF /* Assets.xcassets */,
+				D875488D29F7CD8100B00EFF /* Persistence.swift */,
+				D875488F29F7CD8100B00EFF /* Eventapp.xcdatamodeld */,
+				D875488A29F7CD8100B00EFF /* Preview Content */,
+			);
+			path = Eventapp;
+			sourceTree = "<group>";
+		};
+		D875488A29F7CD8100B00EFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D875488B29F7CD8100B00EFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D875489829F7D5A600B00EFF /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D875489929F7D5C900B00EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D87548B429F7E42100B00EFF /* widgets */,
+				D875489E29F7D9AE00B00EFF /* HomeView.swift */,
+				D87548B729F7E4C500B00EFF /* EventDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D875489A29F7D5D000B00EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D875489B29F7D5D900B00EFF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D87548A029F7D9D000B00EFF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D87548A129F7DA0D00B00EFF /* Consts.swift */,
+				D87548A329F7DA1800B00EFF /* Styles.swift */,
+				D87548A529F7DA8E00B00EFF /* Config.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D87548A829F7DBBB00B00EFF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D87548AB29F7DC1300B00EFF /* AirbnbCereal_W_Md.otf */,
+				D87548AA29F7DC1300B00EFF /* AirbnbCereal_W_Lt.otf */,
+				D87548A929F7DC1300B00EFF /* AirbnbCereal_W_Blk.otf */,
+				D87548AD29F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf */,
+				D87548AC29F7DC1300B00EFF /* AirbnbCereal_W_Bd.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D87548B429F7E42100B00EFF /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				D87548B529F7E44D00B00EFF /* EventVItemView.swift */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D875488029F7CD7F00B00EFF /* Eventapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D875489429F7CD8100B00EFF /* Build configuration list for PBXNativeTarget "Eventapp" */;
+			buildPhases = (
+				D875487D29F7CD7F00B00EFF /* Sources */,
+				D875487E29F7CD7F00B00EFF /* Frameworks */,
+				D875487F29F7CD7F00B00EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventapp;
+			productName = Eventapp;
+			productReference = D875488129F7CD7F00B00EFF /* Eventapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D875487929F7CD7F00B00EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D875488029F7CD7F00B00EFF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D875487C29F7CD7F00B00EFF /* Build configuration list for PBXProject "Eventapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D875487829F7CD7F00B00EFF;
+			productRefGroup = D875488229F7CD7F00B00EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D875488029F7CD7F00B00EFF /* Eventapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D875487F29F7CD7F00B00EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875488C29F7CD8100B00EFF /* Preview Assets.xcassets in Resources */,
+				D875488929F7CD8100B00EFF /* Assets.xcassets in Resources */,
+				D87548AE29F7DC1300B00EFF /* AirbnbCereal_W_Blk.otf in Resources */,
+				D87548B129F7DC1300B00EFF /* AirbnbCereal_W_Bd.otf in Resources */,
+				D87548B229F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf in Resources */,
+				D87548AF29F7DC1300B00EFF /* AirbnbCereal_W_Lt.otf in Resources */,
+				D87548B029F7DC1300B00EFF /* AirbnbCereal_W_Md.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D875487D29F7CD7F00B00EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875489129F7CD8100B00EFF /* Eventapp.xcdatamodeld in Sources */,
+				D87548B629F7E44D00B00EFF /* EventVItemView.swift in Sources */,
+				D87548A229F7DA0D00B00EFF /* Consts.swift in Sources */,
+				D875489F29F7D9AE00B00EFF /* HomeView.swift in Sources */,
+				D87548A629F7DA8E00B00EFF /* Config.swift in Sources */,
+				D87548B829F7E4C500B00EFF /* EventDetailView.swift in Sources */,
+				D87548A429F7DA1800B00EFF /* Styles.swift in Sources */,
+				D875488E29F7CD8100B00EFF /* Persistence.swift in Sources */,
+				D875488529F7CD7F00B00EFF /* EventappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D875489229F7CD8100B00EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D875489329F7CD8100B00EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D875489529F7CD8100B00EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eventapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eventapp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Eventapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D875489629F7CD8100B00EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eventapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eventapp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Eventapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D875487C29F7CD7F00B00EFF /* Build configuration list for PBXProject "Eventapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D875489229F7CD8100B00EFF /* Debug */,
+				D875489329F7CD8100B00EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D875489429F7CD8100B00EFF /* Build configuration list for PBXNativeTarget "Eventapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D875489529F7CD8100B00EFF /* Debug */,
+				D875489629F7CD8100B00EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D875488F29F7CD8100B00EFF /* Eventapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D875489029F7CD8100B00EFF /* Eventapp.xcdatamodel */,
+			);
+			currentVersion = D875489029F7CD8100B00EFF /* Eventapp.xcdatamodel */;
+			path = Eventapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D875487929F7CD7F00B00EFF /* Project object */;
+}
