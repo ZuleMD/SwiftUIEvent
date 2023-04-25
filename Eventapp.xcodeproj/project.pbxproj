@@ -23,6 +23,9 @@
 		D87548B229F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87548AD29F7DC1300B00EFF /* AirbnbCereal_W_Bk.otf */; };
 		D87548B629F7E44D00B00EFF /* EventVItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B529F7E44D00B00EFF /* EventVItemView.swift */; };
 		D87548B829F7E4C500B00EFF /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B729F7E4C500B00EFF /* EventDetailView.swift */; };
+		D87548BA29F805F400B00EFF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B929F805F400B00EFF /* Event.swift */; };
+		D87548BC29F8076D00B00EFF /* EventHItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548BB29F8076C00B00EFF /* EventHItemView.swift */; };
+		D87548BE29F8182500B00EFF /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548BD29F8182500B00EFF /* Performer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		D87548B329F7DC4100B00EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D87548B529F7E44D00B00EFF /* EventVItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVItemView.swift; sourceTree = "<group>"; };
 		D87548B729F7E4C500B00EFF /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		D87548B929F805F400B00EFF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D87548BB29F8076C00B00EFF /* EventHItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHItemView.swift; sourceTree = "<group>"; };
+		D87548BD29F8182500B00EFF /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 		D875489A29F7D5D000B00EFF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D87548B929F805F400B00EFF /* Event.swift */,
+				D87548BD29F8182500B00EFF /* Performer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				D87548B529F7E44D00B00EFF /* EventVItemView.swift */,
+				D87548BB29F8076C00B00EFF /* EventHItemView.swift */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
@@ -240,6 +249,9 @@
 				D87548B629F7E44D00B00EFF /* EventVItemView.swift in Sources */,
 				D87548A229F7DA0D00B00EFF /* Consts.swift in Sources */,
 				D875489F29F7D9AE00B00EFF /* HomeView.swift in Sources */,
+				D87548BE29F8182500B00EFF /* Performer.swift in Sources */,
+				D87548BA29F805F400B00EFF /* Event.swift in Sources */,
+				D87548BC29F8076D00B00EFF /* EventHItemView.swift in Sources */,
 				D87548A629F7DA8E00B00EFF /* Config.swift in Sources */,
 				D87548B829F7E4C500B00EFF /* EventDetailView.swift in Sources */,
 				D87548A429F7DA1800B00EFF /* Styles.swift in Sources */,
