@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject var eventViewModel : EventViewModel = EventViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).font(.custom("",size:16))
+        
+        VStack{
+            
+        }.onAppear{
+            self.eventViewModel.getAllEvents()
+        }
     }
 }
 

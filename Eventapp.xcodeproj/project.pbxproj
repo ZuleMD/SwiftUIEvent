@@ -26,6 +26,10 @@
 		D87548BA29F805F400B00EFF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548B929F805F400B00EFF /* Event.swift */; };
 		D87548BC29F8076D00B00EFF /* EventHItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548BB29F8076C00B00EFF /* EventHItemView.swift */; };
 		D87548BE29F8182500B00EFF /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548BD29F8182500B00EFF /* Performer.swift */; };
+		D87548C029F82A8C00B00EFF /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548BF29F82A8C00B00EFF /* EventService.swift */; };
+		D87548C329F82E8900B00EFF /* EventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548C229F82E8900B00EFF /* EventResponse.swift */; };
+		D87548C529F918C200B00EFF /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548C429F918C200B00EFF /* EventViewModel.swift */; };
+		D87548C729F9294100B00EFF /* SearchInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87548C629F9294100B00EFF /* SearchInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		D87548B929F805F400B00EFF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		D87548BB29F8076C00B00EFF /* EventHItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHItemView.swift; sourceTree = "<group>"; };
 		D87548BD29F8182500B00EFF /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
+		D87548BF29F82A8C00B00EFF /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		D87548C229F82E8900B00EFF /* EventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResponse.swift; sourceTree = "<group>"; };
+		D87548C429F918C200B00EFF /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		D87548C629F9294100B00EFF /* SearchInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +96,7 @@
 				D875489B29F7D5D900B00EFF /* ViewModels */,
 				D875489A29F7D5D000B00EFF /* Model */,
 				D875489929F7D5C900B00EFF /* View */,
-				D875489829F7D5A600B00EFF /* data */,
+				D875489829F7D5A600B00EFF /* Data */,
 				D875488429F7CD7F00B00EFF /* EventappApp.swift */,
 				D875488829F7CD8100B00EFF /* Assets.xcassets */,
 				D875488D29F7CD8100B00EFF /* Persistence.swift */,
@@ -106,11 +114,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D875489829F7D5A600B00EFF /* data */ = {
+		D875489829F7D5A600B00EFF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D87548C129F82E6300B00EFF /* models */,
+				D87548BF29F82A8C00B00EFF /* EventService.swift */,
 			);
-			path = data;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		D875489929F7D5C900B00EFF /* View */ = {
@@ -135,6 +145,7 @@
 		D875489B29F7D5D900B00EFF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D87548C429F918C200B00EFF /* EventViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -166,8 +177,17 @@
 			children = (
 				D87548B529F7E44D00B00EFF /* EventVItemView.swift */,
 				D87548BB29F8076C00B00EFF /* EventHItemView.swift */,
+				D87548C629F9294100B00EFF /* SearchInputView.swift */,
 			);
 			path = widgets;
+			sourceTree = "<group>";
+		};
+		D87548C129F82E6300B00EFF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D87548C229F82E8900B00EFF /* EventResponse.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D875489129F7CD8100B00EFF /* Eventapp.xcdatamodeld in Sources */,
+				D87548C729F9294100B00EFF /* SearchInputView.swift in Sources */,
 				D87548B629F7E44D00B00EFF /* EventVItemView.swift in Sources */,
 				D87548A229F7DA0D00B00EFF /* Consts.swift in Sources */,
 				D875489F29F7D9AE00B00EFF /* HomeView.swift in Sources */,
@@ -256,6 +277,9 @@
 				D87548B829F7E4C500B00EFF /* EventDetailView.swift in Sources */,
 				D87548A429F7DA1800B00EFF /* Styles.swift in Sources */,
 				D875488E29F7CD8100B00EFF /* Persistence.swift in Sources */,
+				D87548C329F82E8900B00EFF /* EventResponse.swift in Sources */,
+				D87548C029F82A8C00B00EFF /* EventService.swift in Sources */,
+				D87548C529F918C200B00EFF /* EventViewModel.swift in Sources */,
 				D875488529F7CD7F00B00EFF /* EventappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

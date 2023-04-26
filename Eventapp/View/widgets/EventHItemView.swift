@@ -36,18 +36,13 @@ struct EventHItemView: View {
                 
                 VStack{
                     Text(event.title).font(.custom(Fonts.airbnbCereal_medium, size: 16)).lineLimit(2)
-                    HStack(spacing: -5)
+                    HStack(spacing: -8)
                     {
                         
-                        /*
-                        Circle().frame(width: 24, height: 24).overlay{
-                            
-                            Image("Image").resizable().scaledToFill().frame(width: 24, height: 24).mask(Circle())
-                            
-                        }*/
+                    
                         Spacer()
                         if(event.performers.count > 3){
-                            Text("+\(event.performers.count - 3)   Going").font(.custom(Fonts.airbnbCereal_medium, size: 14)).foregroundColor(Styles.blue).padding(.trailing, 16)
+                            Text("+\(event.performers.count - 3)  Going").font(.custom(Fonts.airbnbCereal_medium, size: 14)).foregroundColor(Styles.blue).padding(.trailing, 16)
                           
                         }
                         ForEach(event.performers .prefix(3)){
@@ -87,6 +82,6 @@ struct EventHItemView: View {
 
 struct EventHItemView_Previews: PreviewProvider {
     static var previews: some View {
-        EventHItemView(event:  Event(date: "Sat, May 1 •2:00 PM", image: "eventimg1", title: "A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz", location: "Lot 13 • Oakland, CA", performers: [Performer(image: "person1"),Performer(image: "person2"),Performer(image: "person3"),Performer(image: "person1"),Performer(image: "person2"),Performer(image: "person3")]))
+        EventHItemView(event:  Event(date: "Sat, May 1 •2:00 PM", image: "eventimg1", title: "A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz", location: "Lot 13 • Oakland, CA", performers: [Performer(image: "person3"),Performer(image: "person2"),Performer(image: "person1"),Performer(image: "person1"),Performer(image: "person2"),Performer(image: "person3")]))
     }
 }
